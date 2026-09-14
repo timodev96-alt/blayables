@@ -1,20 +1,15 @@
-/* ==========================================================
-   Blayables — shared design tokens & base styles
-   ========================================================== */
-
 :root {
-  /* Color */
-  --bg: #1b1a2e;
-  --bg-raised: #24233d;
-  --bg-raised-2: #2c2b4a;
-  --line: #3a395c;
-  --text: #f5f3ef;
+  --bg: #051a00;
+  --bg-raised: #003504;
+  --bg-raised-2: #14361d;
+  --line: #023600;
+  --text: #e4d8c0;
   --text-muted: #9c9ab5;
-  --yellow: #f2b705;
-  --yellow-dim: #b98d0b;
-  --coral: #ff6b5b;
+  --yellow: #009e15;
+  --yellow-dim: #ff0000;
+  --coral: #003507;
   --coral-dim: #c14f43;
-  --green: #57c785;
+  --green: #013f1b;
 
   /* Type */
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
@@ -207,7 +202,7 @@ main {
 
 .cabinet__blurb {
   color: var(--text-muted);
-  font-size: 0.92rem;
+  font-size: 1rem;
   margin: 0 0 16px 0;
 }
 

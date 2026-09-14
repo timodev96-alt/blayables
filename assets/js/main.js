@@ -17,7 +17,7 @@
         <p class="cabinet__blurb">${game.blurb}</p>
         <div class="cabinet__meta">
           <span>${game.players}</span>
-          <span class="cabinet__cta">${isSoon ? "coming soon" : "play →"}</span>
+          <span class="cabinet__cta">${isSoon ? "coming soon" :""}</span>
         </div>
       </div>
     `;
