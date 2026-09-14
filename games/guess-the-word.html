@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess the Word — Blayables</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <span class="brand__mark">M/A</span>
+      <span class="brand__name">Blayables</span>
+    </a>
+    <nav class="site-nav">
+      <a href="../index.html">Games</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="game-header">
+      <a class="back-link" href="../index.html">← Back to games</a>
+      <span class="pill pill--live">1 player</span>
+    </div>
+
+    <section class="game-panel">
+      <div class="game-status-row">
+        <span id="gw-category">Category: —</span>
+        <span id="gw-wins">Words solved: 0</span>
+      </div>
+
+      <div class="gw-lives" id="gw-lives"></div>
+      <p class="gw-message" id="gw-message" aria-live="polite"></p>
+
+      <div class="gw-word" id="gw-word" aria-label="Word to guess"></div>
+
+      <div class="gw-keyboard" id="gw-keyboard"></div>
+
+      <div class="ttt-actions">
+        <button class="btn" id="gw-next">New word</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Blayables</span>
+    <span>Guess the Word</span>
+  </footer>
+
+  <script src="../assets/js/guess-word.js"></script>
+</body>
+</html>

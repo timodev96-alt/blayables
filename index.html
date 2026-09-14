@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blayables — small games, no fuss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">M/A</span>
+      <span class="brand__name">Blayables</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Games</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="hero__eyebrow">Free to play, nothing to install</p>
+      <h1>Pick a game, start playing.</h1>
+      <p>A small, growing collection of quick games you can play right in the browser. No accounts, no downloads — just pick a cabinet and go.</p>
+    </section>
+
+    <section aria-label="Available games">
+      <div class="game-grid" id="game-grid">
+        <!-- Cards are rendered by main.js from assets/js/games-data.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Blayables</span>
+    <span>Built to grow — new games get added here.</span>
+  </footer>
+
+  <script src="assets/js/games-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
