@@ -32,8 +32,9 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background-color: var(--bg);
   background-image:
+    radial-gradient(circle 200px at var(--x, 50%) var(--y, 50%), rgba(19, 82, 0, 0.534), transparent),
     radial-gradient(circle at 15% 0%, rgba(242, 183, 5, 0.06), transparent 45%),
     radial-gradient(circle at 85% 20%, rgba(255, 107, 91, 0.05), transparent 40%);
   color: var(--text);
