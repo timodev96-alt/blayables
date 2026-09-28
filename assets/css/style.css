@@ -474,6 +474,17 @@ main {
   z-index: 9999;
 }
 
-body, a, button, .cabinet, .gw-key, .ttt-cell, input, select, textarea {
+* {
   cursor: none !important;
+}
+body:has(a:hover, button:hover, .cabinet:hover, .gw-key:hover, .ttt-cell:hover) .custom-cursor {
+  width: 28px;
+  height: 28px;
+  background-color: var(--coral);
+  box-shadow: 0 0 10px var(--coral);
+}
+
+.custom-cursor {
+  opacity: 0;
+  transition: width 0.15s ease, height 0.15s ease, background-color 0.15s ease, opacity 0.2s ease;
 }

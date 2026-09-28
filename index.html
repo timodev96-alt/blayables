@@ -9,11 +9,6 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <div class="custom-cursor"></div>
-  <script>
-    document.onmousemove = e => document.body.style.setProperty('--x', e.clientX+'px') || document.body.style.setProperty('--y', e.clientY+'px');
-  </script>
-
   <header class="site-header">
     <a class="brand" href="index.html">
       <span class="brand__name">Blayables</span>
@@ -44,5 +39,7 @@
 
   <script src="assets/js/games-data.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/cursor.js"></script>
 </body>
 </html>
